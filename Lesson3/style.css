@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .buva {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    border: 2px solid #333;
+    margin: 0 auto;
+  }
+  
+  /* Section 1 */
+  .section:nth-child(1) .buva {
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  /* Section 2 */
+  .section:nth-child(2) .buva {
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  /* Section 3 */
+  .section:nth-child(3) .buva {
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  /* Section 4 */
+  .section:nth-child(4) .buva {
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  
+  /* Section 5 */
+  .section:nth-child(5) .buva {
+    justify-content: flex-end;
+    align-items: baseline;
+  }
+  
+  /* Section 6 */
+  .section:nth-child(6) .buva {
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  /* Section 7 */
+  .section:nth-child(7) .buva {
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+  
+  /* Section 8 */
+  .section:nth-child(8) .buva {
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  /* Section 9 */
+  .section:nth-child(9) .buva {
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  /* Section 10 */
+  .section:nth-child(10) .buva {
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  /* General styles for children */
+  .ota {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #007bff;
+    padding: 10px;
+  }
+  
+  .bola {
+    width: 100px;
+    height: 80px;
+    background-color: #28a745;
+    border: 1px solid #fff;
+  }
+  
